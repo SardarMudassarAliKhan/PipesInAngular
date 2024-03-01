@@ -3,10 +3,12 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MyCustomPipe } from './Custompipe/my-custom.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyCustomPipe
   ],
   imports: [
     BrowserModule,
